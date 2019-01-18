@@ -19,7 +19,6 @@ $(document).ready(function()
         $("#" + table_headers[k].id).bind("click", function(e)
         {
             lever = (lever + 1) % 2;
-            console.log(lever);
             sort_index = table_index[e.target.id];
             switch (sort_index)
             {
