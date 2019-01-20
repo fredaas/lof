@@ -1,7 +1,8 @@
 DESCRIPTION
 --------------------------------------------------------------------------------
 
-List of films.
+A simple scanner/transpiler written in C which generates HTML tables for the web
+from standard text files.
 
 SETUP
 --------------------------------------------------------------------------------
