@@ -27,10 +27,12 @@ typedef enum Token {
     TOKEN_BEGIN_CONSUME,
     TOKEN_END_CONSUME,
     TOKEN_NEW_LINE,
+    TOKEN_COMMENT,
     NUM_TOKENS
 } Token;
 
 char token_name[NUM_TOKENS] = {
+    [TOKEN_COMMENT] = '#',
     [TOKEN_BEGIN_CONSUME] = '{',
     [TOKEN_END_CONSUME] = '}',
     [TOKEN_NEW_LINE] = '\n'
@@ -106,8 +108,19 @@ int main(void)
         switch (state)
         {
         case STATE_BEGIN_ROW:
-            create_tag(TAG_BEGIN_ROW);
-            state = STATE_PROGRESS;
+            if (is_token(c, TOKEN_COMMENT))
+            {
+                while (c != '\n')
+                    next();
+                next();
+            }
+            else if (c == ' ' || c == '\n')
+                next();
+            else
+            {
+                create_tag(TAG_BEGIN_ROW);
+                state = STATE_PROGRESS;
+            }
             break;
 
         case STATE_END_ROW:
