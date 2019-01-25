@@ -1,8 +1,7 @@
 DESCRIPTION
 --------------------------------------------------------------------------------
 
-A simple scanner/transpiler written in C which generates HTML tables for the web
-from standard text files.
+Simple transpiler which generates HTML tables from standard text files.
 
 SETUP
 --------------------------------------------------------------------------------
