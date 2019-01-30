@@ -1,63 +1,69 @@
 # Watched, Title, Director, Released
 
-{ } {A Ghost Story} {D. Lowery} {2017}
-{ } {ARQ} {T. Elliot} {2016}
-{ } {Antichrist} {L. von Trier} {2009}
-{ } {Arlington Road} {M. Pellington} {1999}
-{ } {BlacKkKlansman} {S. Lee} {2018}
-{ } {Brazil} {T. Gilliam} {1986}
-{ } {Christopher Robin} {M. Foster} {2018}
-{ } {Ctrl Z} {J. Kennedy} {2007}
-{ } {Darkest Hour} {J. Wright} {2017}
-{ } {Das Boot} {W. Petersen} {1981}
-{ } {Dear Wendy} {L. von Trier} {2004}
-{ } {Dune} {D. Lynch} {1984}
-{ } {Eraserhead} {D. Lynch} {1977}
-{ } {Full Metal Jacket} {S. Kubrik} {1987}
-{ } {Glass} {M. N. Shyamalan} {2019}
-{ } {Gone Girl} {D. Fincher} {2014}
-{ } {Good Time} {B. Saftdie and J. Safdie} {2017}
-{ } {La Jetée} {C. Marker} {1962}
-{ } {Manderlay} {L. von Trier} {2005}
-{ } {Melancholia} {L. von Trier} {2011}
-{ } {Nymphomaniac} {L. von Trier} {2013}
-{ } {Phantom Thread} {P. T. Anderson} {2017}
-{ } {Platoon} {O. Stone} {1986}
-{ } {Roma} {A. Curaón} {2018}
-{ } {The Boss of it All} {L. von Trier} {2006}
-{ } {The House That Jack Built} {L. von Trier} {2018}
-{ } {The Piano} {J. Campion} {1993}
-{ } {War for the Planet of the Apes} {M. Reeves} {2017}
-{ } {Wind River} {T. Sheridan} {2017}
-{*} {Gerald's Game} {M. Flanagan} {2017}
-{x} {Annihilation} {} {2018}
-{x} {Askeladden} {} {2017}
-{x} {Atomic Blonde} {} {2017}
-{x} {Baby Drivre} {} {2017}
-{x} {Birdbox} {S. Bier} {2018}
-{x} {Black Panther} {} {2018}
-{x} {Coco} {} {2017}
-{x} {Dark Tower} {} {2017}
-{x} {Downsizing} {} {2017}
-{x} {First Man} {} {2018}
-{x} {Hereditary} {} {2018}
-{x} {I, Tonya} {} {2017}
-{x} {Isle of Dogs} {} {2018}
-{x} {Lady Bird} {} {2017}
-{x} {Magnolia} {} {1999}
-{x} {Molly's Game} {A. Sorkin} {2017}
-{x} {Mullhalond Drive} {D. Lynch} {2001}
-{x} {Okja} {B. Joon-ho} {2017}
-{x} {Raw} {} {2016}
-{x} {Ready Player One} {} {2018}
-{x} {SLR} {} {2013}
-{x} {Synecdoche} {C. Kaufman} {2008}
-{x} {The Ballad of Buster Scruggs} {J. Choen and E. Choen} {2018}
-{x} {The Greatest Showman} {} {2017}
-{x} {The Invitation} {} {2015}
-{x} {The Shape of Water} {} {2017}
-{x} {The Square} {} {2017}
-{x} {The Survivalist} {} {2017}
-{x} {The Tragedy Girls} {} {2017}
-{x} {Three Billboards Outside Ebbing, Missouri} {} {2017}
-{x} {You Where Never Really Here} {} {2017}
+-; A Dogs Journey; G. Mancuso; 2019
+-; A Ghost Story; D. Lowery; 2017
+-; ARQ; T. Elliot; 2016
+-; Antichrist; L. von Trier; 2009
+-; Arlington Road; M. Pellington; 1999
+-; Brazil; T. Gilliam; 1986
+-; Christopher Robin; M. Foster; 2018
+-; Ctrl Z; J. Kennedy; 2007
+-; Darkest Hour; J. Wright; 2017
+-; Das Boot; W. Petersen; 1981
+-; Dear Wendy; L. von Trier; 2004
+-; Dune; D. Lynch; 1984
+-; Eraserhead; D. Lynch; 1977
+-; Full Metal Jacket; S. Kubrik; 1987
+-; Glass; M. N. Shyamalan; 2019
+-; Gone Girl; D. Fincher; 2014
+-; Good Time; B. Saftdie and J. Safdie; 2017
+-; La Jetée; C. Marker; 1962
+-; Manderlay; L. von Trier; 2005
+-; Melancholia; L. von Trier; 2011
+-; Nymphomaniac; L. von Trier; 2013
+-; Phantom Thread; P. T. Anderson; 2017
+-; Platoon; O. Stone; 1986
+-; Roma; A. Curaón; 2018
+-; The Boss of it All; L. von Trier; 2006
+-; The House That Jack Built; L. von Trier; 2018
+-; The Piano; J. Campion; 1993
+-; War for the Planet of the Apes; M. Reeves; 2017
+-; Wind River; T. Sheridan; 2017
+-; Gerald's Game; M. Flanagan; 2017
+x; Annihilation; -; 2018
+x; Askeladden; -; 2017
+x; Atomic Blonde; -; 2017
+x; Baby Drivre; -; 2017
+x; Birdbox; S. Bier; 2018
+x; BlacKkKlansman; S. Lee; 2018
+x; Molly's Game; A. Sorkin; 2017
+x; Mullhalond Drive; D. Lynch; 2001
+x; The Ballad of Buster Scruggs; J. Choen and E. Choen; 2018
+x; Synecdoche; C. Kaufman; 2008
+x; Okja; B. Joon-ho; 2017
+x; Black Panther; -; 2018
+x; Coco; -; 2017
+x; Dark Tower; -; 2017
+x; Downsizing; -; 2017
+x; First Man; -; 2018
+x; Hereditary; -; 2018
+x; I, Tonya; -; 2017
+x; Isle of Dogs; -; 2018
+x; Lady Bird; -; 2017
+x; Magnolia; -; 1999
+x; Raw; -; 2016
+x; Ready Player One; -; 2018
+x; SLR; -; 2013
+x; The Greatest Showman; -; 2017
+x; The Invitation; -; 2015
+x; The Shape of Water; -; 2017
+x; The Square; -; 2017
+x; The Survivalist; -; 2017
+x; The Tragedy Girls; -; 2017
+x; Three Billboards Outside Ebbing, Missouri; -; 2017
+x; You Where Never Really Here; -; 2017
+-; The Tree of Life; T. Malick; 2011
+-; Under the Skin; J. Glazer; 2013
+-; Taxidermia; G. Pálfi; 2006
+x; Cloud Atlas; L. Wachowsky, L. Wachowsky, and T. Tykwer; 2012
+x; Mr. Nobody; J. van Dormael; 2009

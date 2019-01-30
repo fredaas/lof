@@ -6,36 +6,28 @@ FILE *in_file = NULL;
 
 #define SIZE_LINE_BUFFER (int)(256)
 
-char line[SIZE_LINE_BUFFER];
-
 typedef enum State {
     STATE_CONSUME,
-    STATE_PROGRESS,
     STATE_BEGIN_ROW,
-    STATE_END_ROW,
     NUM_STATES
 } State;
 
 char *state_name[NUM_STATES] = {
     [STATE_CONSUME] = "state_consume",
-    [STATE_PROGRESS] = "state_progress" ,
     [STATE_BEGIN_ROW] = "state_begin_row",
-    [STATE_END_ROW] = "state_end_row"
 };
 
 typedef enum Token {
-    TOKEN_BEGIN_CONSUME,
-    TOKEN_END_CONSUME,
     TOKEN_NEW_LINE,
     TOKEN_COMMENT,
+    TOKEN_SEPARATOR,
     NUM_TOKENS
 } Token;
 
 char token_name[NUM_TOKENS] = {
     [TOKEN_COMMENT] = '#',
-    [TOKEN_BEGIN_CONSUME] = '{',
-    [TOKEN_END_CONSUME] = '}',
-    [TOKEN_NEW_LINE] = '\n'
+    [TOKEN_NEW_LINE] = '\n',
+    [TOKEN_SEPARATOR] = ';'
 };
 
 typedef enum Tag {
@@ -119,37 +111,27 @@ int main(void)
             else
             {
                 create_tag(TAG_BEGIN_ROW);
-                state = STATE_PROGRESS;
-            }
-            break;
-
-        case STATE_END_ROW:
-            create_tag(TAG_END_ROW);
-            state = STATE_BEGIN_ROW;
-            break;
-
-        case STATE_PROGRESS:
-            if (is_token(c, TOKEN_BEGIN_CONSUME))
-            {
-                next();
                 create_tag(TAG_BEGIN_COL);
                 state = STATE_CONSUME;
             }
-            else if (is_token(c, TOKEN_NEW_LINE))
-            {
-                next();
-                state = STATE_END_ROW;
-            }
-            else
-                next();
             break;
 
         case STATE_CONSUME:
-            if (is_token(c, TOKEN_END_CONSUME))
+            if (is_token(c, TOKEN_SEPARATOR))
+            {
+                next();
+                /* Trim LHS whitespace */
+                if (c == ' ')
+                    next();
+                create_tag(TAG_END_COL);
+                create_tag(TAG_BEGIN_COL);
+            }
+            else if (c == '\n')
             {
                 next();
                 create_tag(TAG_END_COL);
-                state = STATE_PROGRESS;
+                create_tag(TAG_END_ROW);
+                state = STATE_BEGIN_ROW;
             }
             else
             {
@@ -160,8 +142,6 @@ int main(void)
         }
     }
 
-    if (state == STATE_END_ROW && c == EOF)
-        create_tag(TAG_END_ROW);
     create_tag(TAG_END_TBODY);
     create_tag(TAG_END_TABLE);
 
