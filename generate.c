@@ -120,8 +120,7 @@ int main(void)
             if (is_token(c, TOKEN_SEPARATOR))
             {
                 next();
-                /* Trim LHS whitespace */
-                if (c == ' ')
+                while (c == ' ')
                     next();
                 create_tag(TAG_END_COL);
                 create_tag(TAG_BEGIN_COL);
