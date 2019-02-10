@@ -1,31 +1,75 @@
 # Watched, Title, Director, Released
 
+x; Dogtooth; Y. Lanthimos; 2009
+x; The Killing of Sacred Deer; Y. Lanthimos; 2017
+-; The Favourite; Y. Lanthimos; 2018
+x; The Lobster; Y. Lanthimos; 2015
+-; My Best Friend; Y. Lanthimos and L. Lazopoulos; 2001
+-; Uranisco Disco; Y. Lanthimos; 2001
+-; Kinetta; Y. Lanthimos; 2005
+-; Alps; Y. Lanthimos; 2011
+
+x; The Square; C. Östlund; 2017
+x; Force Majeure; C. Östlund; 2014
+-; Play; C. Östlund; 2011
+
+-; Dune; D. Lynch; 1984
+-; Eraserhead; D. Lynch; 1977
+x; Mullhalond Drive; D. Lynch; 2001
+
+-; Antichrist; L. von Trier; 2009
+-; Dear Wendy; L. von Trier; 2004
+-; Manderlay; L. von Trier; 2005
+-; Melancholia; L. von Trier; 2011
+-; Nymphomaniac; L. von Trier; 2013
+-; The Boss of it All; L. von Trier; 2006
+-; The House That Jack Built; L. von Trier; 2018
+
+-; Barton Fink; J. Coen and E. Coen; 1991
+-; Fargo; J. Coen and E. Coen; 1996
+x; O Brother, Where Art Thou?; J. Coen and E. Coen; 2000
+-; The Man Who Wasn't There; J. Coen and E. Coen; 2001
+x; No Country for Old Men; J. Coen and E. Coen; 2007
+x; Burn After Reading; J. Coen and E. Coen; 2008
+x; A Serious Man; J. Coen and E. Coen; 2009
+-; True Grit; J. Coen and E. Coen; 2010
+-; Inside Llewin Davis; J. Coen and E. Coen; 2013
+-; Bridge of Spies; J. Coen and E. Coen; 2015
+-; Hail, Caesar!; J. Coen and E. Coen; 2016
+x; The Ballad of Buster Scruggs; J. Coen and E. Coen; 2018
+
+x; Isle of Dogs; W. Anderson; 2018
+x; Moonrise Kingdom; W. Anderson; 2012
+x; Fantastic Mr. Fox; W. Anderson; 2009
+x; The Darjeeling Limited; W. Anderson; 2007
+x; The Life Aquatic with Steve Zissou; W. Anderson; 2004
+x; The Royal Tenenbaums; W. Anderson; 2001
+x; Rushmore; W. Anderson; 1998
+x; Bottle Rocket; W. Anderson; 1996
+x; The Grand Budapest Hotel; W. Anderson; 2014
+-; The French Dispatch; W. Anderson; -
+
 -; A Dogs Journey; G. Mancuso; 2019
 -; A Ghost Story; D. Lowery; 2017
 -; ARQ; T. Elliot; 2016
--; Antichrist; L. von Trier; 2009
+
 -; Arlington Road; M. Pellington; 1999
 -; Brazil; T. Gilliam; 1986
 -; Christopher Robin; M. Foster; 2018
 -; Ctrl Z; J. Kennedy; 2007
 -; Darkest Hour; J. Wright; 2017
 -; Das Boot; W. Petersen; 1981
--; Dear Wendy; L. von Trier; 2004
--; Dune; D. Lynch; 1984
--; Eraserhead; D. Lynch; 1977
+
 -; Full Metal Jacket; S. Kubrik; 1987
 -; Glass; M. N. Shyamalan; 2019
 -; Gone Girl; D. Fincher; 2014
 -; Good Time; B. Saftdie and J. Safdie; 2017
 -; La Jetée; C. Marker; 1962
--; Manderlay; L. von Trier; 2005
--; Melancholia; L. von Trier; 2011
--; Nymphomaniac; L. von Trier; 2013
+
 -; Phantom Thread; P. T. Anderson; 2017
 -; Platoon; O. Stone; 1986
 -; Roma; A. Curaón; 2018
--; The Boss of it All; L. von Trier; 2006
--; The House That Jack Built; L. von Trier; 2018
+
 -; The Piano; J. Campion; 1993
 -; War for the Planet of the Apes; M. Reeves; 2017
 -; Wind River; T. Sheridan; 2017
@@ -37,8 +81,7 @@ x; Baby Drivre; -; 2017
 x; Birdbox; S. Bier; 2018
 x; BlacKkKlansman; S. Lee; 2018
 x; Molly's Game; A. Sorkin; 2017
-x; Mullhalond Drive; D. Lynch; 2001
-x; The Ballad of Buster Scruggs; J. Choen and E. Choen; 2018
+
 x; Synecdoche; C. Kaufman; 2008
 x; Okja; B. Joon-ho; 2017
 x; Black Panther; -; 2018
@@ -57,7 +100,7 @@ x; SLR; -; 2013
 x; The Greatest Showman; -; 2017
 x; The Invitation; -; 2015
 x; The Shape of Water; -; 2017
-x; The Square; -; 2017
+
 x; The Survivalist; -; 2017
 x; The Tragedy Girls; -; 2017
 x; Three Billboards Outside Ebbing, Missouri; -; 2017

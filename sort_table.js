@@ -1,19 +1,19 @@
-var table_index = {
-    watched: 0,
-    title: 1,
-    director: 2,
-    year: 3
-};
-
-var sort_index = 0;
-var lever = 0;
-var sort_increasing = 0;
-var sort_decreasing = 1;
-var tbody = $("tbody").children().get();
-
 $(document).ready(function()
 {
+    var table_index = {
+        watched: 0,
+        title: 1,
+        director: 2,
+        year: 3
+    };
+
+    var sort_index = 0;
+    var lever = 0;
+    var sort_increasing = 0;
+    var sort_decreasing = 1;
+    var tbody = $("tbody").children().get();
     var table_headers = $("thead").children();
+
     for (var k = 0; k < table_headers.length; k++)
     {
         $("#" + table_headers[k].id).bind("click", function(e)

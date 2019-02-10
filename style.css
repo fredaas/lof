@@ -24,21 +24,34 @@ html, body {
   color: #454545;
 }
 
-table {
+#search {
   font-family: 'Ubuntu Mono', 'monospace';
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 18pt;
   color: #454545;
 }
 
-tr:nth-child(even) {
+table {
+  font-family: 'Ubuntu Mono', 'monospace';
+  font-weight: 400;
+  font-size: 18pt;
+  color: #454545;
+}
+
+/* tr:nth-child(even) {
   background: #CCC
 }
 tr:nth-child(odd) {
   background: #FFF
-}
+} */
 
 /* STRUCTURE */
+
+#search {
+  width: 100%;
+  margin: 20px 0 20px 0;
+  padding: 5px;
+}
 
 #wrapper-outer {
   display: flex;
@@ -48,7 +61,13 @@ tr:nth-child(odd) {
 }
 
 table {
+  border-collapse: collapse;
   width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #aaaa;
+  padding: 0 10px 0 10px
 }
 
 td:first-child {
@@ -56,5 +75,6 @@ td:first-child {
 }
 
 td {
+  padding: 5px;
   text-align: right;
 }
