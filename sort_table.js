@@ -8,17 +8,17 @@ $(document).ready(function()
     };
 
     var sort_index = 0;
-    var lever = 0;
+    var sort_lever = 0;
     var sort_increasing = 0;
     var sort_decreasing = 1;
     var tbody = $("tbody").children().get();
-    var table_headers = $("thead").children();
+    var table_headers = $("thead tr").children().get();
 
     for (var k = 0; k < table_headers.length; k++)
     {
         $("#" + table_headers[k].id).bind("click", function(e)
         {
-            lever = (lever + 1) % 2;
+            sort_lever = (sort_lever + 1) % 2;
             sort_index = table_index[e.target.id];
             switch (sort_index)
             {
@@ -29,7 +29,7 @@ $(document).ready(function()
                 tbody.sort(function(a, b) {
                     var l = $(a).children().eq(sort_index).text();
                     var r = $(b).children().eq(sort_index).text();
-                    switch (lever)
+                    switch (sort_lever)
                     {
                     case sort_decreasing:
                         if (r.toLowerCase() < l.toLowerCase())
@@ -53,7 +53,7 @@ $(document).ready(function()
                 tbody.sort(function(a, b) {
                     var l = $(a).children().eq(sort_index).text();
                     var r = $(b).children().eq(sort_index).text();
-                    switch (lever)
+                    switch (sort_lever)
                     {
                     case sort_decreasing:
                         return l - r;

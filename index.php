@@ -9,9 +9,10 @@
 
 <body>
 <div id="wrapper-outer">
-    <div id="wrapper-inner">List of Films</div>
+    <div id="page-title">List of Films</div>
+    <input id="search" type="text" placeholder="Search table">
 </div>
-<input type="text" id="search" placeholder="Search table">
+
 <?php
     include "film-list.html";
 ?>

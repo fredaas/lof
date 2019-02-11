@@ -47,7 +47,6 @@ x; The Royal Tenenbaums; W. Anderson; 2001
 x; Rushmore; W. Anderson; 1998
 x; Bottle Rocket; W. Anderson; 1996
 x; The Grand Budapest Hotel; W. Anderson; 2014
--; The French Dispatch; W. Anderson; -
 
 -; A Dogs Journey; G. Mancuso; 2019
 -; A Ghost Story; D. Lowery; 2017
